@@ -1211,8 +1211,7 @@ All modifications over the original configuration file (from Marlin distribution
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-// #define MULTIPLE_PROBING 2 //Customized DBP
-#define MULTIPLE_PROBING 1 //Nathan
+#define MULTIPLE_PROBING 2 //Customized DBP
 // #define EXTRA_PROBING    1 //Customized DBP
 // #define EXTRA_PROBING    1 //Customized DBP //Nathan (disabled)
 
