@@ -1166,11 +1166,11 @@ All modifications over the original configuration file (from Marlin distribution
 
 // X and Y axis travel speed (mm/min) between probes
 // #define XY_PROBE_FEEDRATE (133*60)
-#define XY_PROBE_FEEDRATE 10000 //Nathan
+#define XY_PROBE_FEEDRATE (166*60) //Nathan
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 // #define Z_PROBE_FEEDRATE_FAST (4*60)
-#define Z_PROBE_FEEDRATE_FAST (20*60) //Nathan
+#define Z_PROBE_FEEDRATE_FAST (30*60) //Nathan
 
 // Feedrate (mm/min) for the "accurate" probe of each point
 #define Z_PROBE_FEEDRATE_SLOW (Z_PROBE_FEEDRATE_FAST / 2)
@@ -1730,8 +1730,7 @@ All modifications over the original configuration file (from Marlin distribution
 #endif
 
 // Homing speeds (mm/min)
-// #define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) } //Customized DBP
-#define HOMING_FEEDRATE_MM_M { (80*60), (80*60), (4*60) } //Nathan
+#define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) } //Customized DBP
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
