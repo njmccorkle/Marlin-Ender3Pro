@@ -1157,12 +1157,14 @@ All modifications over the original configuration file (from Marlin distribution
  *     O-- FRONT --+
  */
 // #define NOZZLE_TO_PROBE_OFFSET { -42, -5, 0 } //Customized DBP
-#define NOZZLE_TO_PROBE_OFFSET { -55, -22, 0 } //Nathan
+// #define NOZZLE_TO_PROBE_OFFSET { -55, -22, 0 } //Nathan - Hero Me
+#define NOZZLE_TO_PROBE_OFFSET { -46, -8, 0 } //Nathan - Satsana
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
 // #define PROBING_MARGIN 10
-#define PROBING_MARGIN 55 //Nathan //try the same offset as nozzle to see if we can center the probing area
+// #define PROBING_MARGIN 55 //Nathan - HeroMe - use the same offset as nozzle to see if we can center the probing area
+#define PROBING_MARGIN 46 //Nathan - HeroMe - use the same offset as nozzle to see if we can center the probing area
 
 // X and Y axis travel speed (mm/min) between probes
 // #define XY_PROBE_FEEDRATE (133*60)
