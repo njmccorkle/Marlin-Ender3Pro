@@ -1211,7 +1211,8 @@ All modifications over the original configuration file (from Marlin distribution
  * A total of 2 does fast/slow probes with a weighted average.
  * A total of 3 or more adds more slow probes, taking the average.
  */
-#define MULTIPLE_PROBING 2 //Customized DBP
+// #define MULTIPLE_PROBING 2 //Customized DBP
+#define MULTIPLE_PROBING 1 //Nathan
 // #define EXTRA_PROBING    1 //Customized DBP
 // #define EXTRA_PROBING    1 //Customized DBP //Nathan (disabled)
 
@@ -1729,7 +1730,8 @@ All modifications over the original configuration file (from Marlin distribution
 #endif
 
 // Homing speeds (mm/min)
-#define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) } //Customized DBP
+// #define HOMING_FEEDRATE_MM_M { (50*60), (50*60), (4*60) } //Customized DBP
+#define HOMING_FEEDRATE_MM_M { (80*60), (80*60), (4*60) } //Nathan
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
